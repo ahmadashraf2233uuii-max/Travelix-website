@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="ar" dir="ltr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Travelix - Booking</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700&family=Lato:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <nav class="navbar">
+    <a href="index.html" class="logo">Travelix</a>
+    <div class="nav-links">
+        <a href="index.html">Home</a>
+        <a href="destinations.html">Destinations</a>
+        <a href="tours.html">Tours</a>
+        <a href="about.html">About</a>
+        <a href="contact.html">Contact</a>
+        <a href="book.html" class="btn-book">Book Now</a>
+    </div>
+</nav>
+<section class="page-header">
+<h1> Book Now</h1>
+<p>Fill out the booking form below to start your next journey with us at Travelix.</p>
+</section>
+ 
+
+<section class="contact-section">
+<form class="contact-form">
+        <div class="form-group">
+            <label for="fullname">Full Name</label><br>
+            <input type="text" id="fullname" placeholder="Name as it appears in the passport">
+        </div>
+        <div class="form-group">
+            <label for="email">Email</label><br>
+            <input type="email" id="email" placeholder="Enter your email address">
+        </div>
+        <div class="form-group">
+            <label for="phone">Phone</label><br>
+            <input type="tel" id="phone" placeholder="Enter your phone number">
+        </div>
+
+        <div class="form-group">
+            <label for="destination">The Tourist Destination</label><br>
+            <select id="destination">
+                <option value="">Choose the destination.</option>
+                <option value="france">France</option>
+                <option value="italy">Italy</option>
+               
+                 <option value="japan">Japan</option>
+                 <option value="egypt">Egypt</option>
+                   <option value="turkey">Turkey</option>
+                    <option value="indonesia">Indonesia</option>
+                     <option value="spain">Spain</option>
+                      <option value="switzerland">Switzerland</option>
+                       <option value="greece">Greece</option>
+                        <option value="usa">USA</option>
+                         <option value="uk">UK</option>
+                          <option value="uae">UAE</option>
+            </select>
+        </div>
+          
+
+
+        <div class="form-group">
+            <label for="tour-package">Tour Package</label><br>
+            <select id="tour-package">
+                <option value="">Choose a tour package</option>
+                <option value="paris-tour">Paris, France Tour</option>
+                <option value="pyramids-tour">Pyramids of Giza ,Egypt Tour</option>
+                <option value="rome-tour">The Colosseum , Rome Tour </option>
+                <option value="himehi-tour">Himehi Castle, Japan Tour</option>
+                <option value="lauterbrunnen-tour">Lauterbrunnen, Switzerland Tour</option>
+                <option value="dubai-tour">Burj Khalifa, Dubai Tour</option>
+                <option value="santorini-tour">Santorini, Greece Tour</option>
+                <option value="Bali-tour">Bali, Indonesia Tour</option>
+            </select>
+        </div>
+        <div class="form-group">
+            <label for="travelers">Number of Travelers</label><br>
+            <input type="number" id="travelers" min="1" value="1">
+        </div>
+        <div class="form-group">
+            <label for="date">Travel Dates</label><br>
+            <input type="date" id="date" lang="en">
+        </div>
+        <div class="form-group">
+            <label for="return-date">Return Date</label><br>
+            <input type="data" id="return-date" lang="en">
+        </div>
+        <div class="form-group">
+            <label>Room Type</label><br>
+            <div class="radio-group">
+                <label><input type="radio" name="room-type" value="single">Single</label>
+                <label><input type="radio" name="room-type" value="double">Double</label>
+                <label><input type="radio" name="room-type" value="suite">Suite</label>
+            </div>
+        </div>
+        <div class="form-group">
+            <label for="payment">Payment Method</label><br>
+            <select id="payment">
+                <option value="">Choose a payment method</option>
+                <option value="credit-card">Credit Card</option>
+                <option value="bank-transfer">Bank Transfer</option>
+                <option value="cash">Cash on Arrival</option>
+            </select>
+        </div>
+        <div class="form-group">
+            <label for="requests">Special Requests</label><br>
+            <textarea id="requests" rows="4" placeholder="Any special requests? (optional)"></textarea>
+        </div>
+        
+        <button type="submit" class="btn-submit">Booking Confirmation</button>
+    </form>
+</section>
+<footer class="site-footer">
+    <p>&copy; 2026 Travel Agency. All rights reserved.</p>
+</footer>
+    
+    
+
+</body>
+</html
